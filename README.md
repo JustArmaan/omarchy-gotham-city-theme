@@ -13,3 +13,6 @@ A dark, moody theme for Omarchy Linux inspired by the atmospheric noir aesthetic
 ```bash
 omarchy-theme-install https://github.com/JustArmaan/omarchy-gotham-city-theme.git
 ```
+## Preview
+![preview image](https://i.imgur.com/ZDyorI4.jpeg)
+![preview image 1](https://i.imgur.com/yqo5k1Z.png)
