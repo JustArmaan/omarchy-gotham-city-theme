@@ -1,0 +1,129 @@
+# Gotham City Dark Theme for Alacritty
+
+# Window configuration
+[window]
+opacity = 0.95
+padding.x = 8
+padding.y = 8
+decorations = "full"
+dynamic_title = true
+
+# Font configuration
+[font]
+size = 11.0
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Regular"
+
+[font.bold]
+family = "JetBrains Mono"
+style = "Bold"
+
+[font.italic]
+family = "JetBrains Mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrains Mono"
+style = "Bold Italic"
+
+# Colors (Gotham City Dark)
+[colors.primary]
+background = "#0a0e12"
+foreground = "#d4d4d4"
+dim_foreground = "#b8c0c8"
+bright_foreground = "#d8e0e8"
+
+[colors.cursor]
+text = "#0a0e12"
+cursor = "#f0d090"
+
+[colors.vi_mode_cursor]
+text = "#0a0e12"
+cursor = "#7aa8b4"
+
+[colors.selection]
+text = "CellForeground"
+background = "#3d4552"
+
+[colors.search.matches]
+foreground = "#0a0e12"
+background = "#d9b768"
+
+[colors.search.focused_match]
+foreground = "#0a0e12"
+background = "#f0d090"
+
+[colors.hints.start]
+foreground = "#0a0e12"
+background = "#d9b768"
+
+[colors.hints.end]
+foreground = "#0a0e12"
+background = "#7aa8b4"
+
+[colors.line_indicator]
+foreground = "None"
+background = "None"
+
+[colors.footer_bar]
+foreground = "#d4d4d4"
+background = "#1a1f29"
+
+[colors.normal]
+black = "#1a1f29"
+red = "#d45a4a"
+green = "#6b8a72"
+yellow = "#d9b768"
+blue = "#4a6b7c"
+magenta = "#8c6a7a"
+cyan = "#5a8a94"
+white = "#b8c0c8"
+
+[colors.bright]
+black = "#3d4552"
+red = "#e67a6a"
+green = "#7a9b82"
+yellow = "#f0d090"
+blue = "#6a8a9c"
+magenta = "#a68090"
+cyan = "#7aa8b4"
+white = "#d8e0e8"
+
+[colors.dim]
+black = "#14181d"
+red = "#a84a3c"
+green = "#547060"
+yellow = "#b8985c"
+blue = "#3c5564"
+magenta = "#6e5662"
+cyan = "#4a6e78"
+white = "#909090"
+
+# Cursor style
+[cursor.style]
+shape = "Block"
+blinking = "Off"
+
+# Terminal bell
+[bell]
+animation = "EaseOutExpo"
+duration = 0
+color = "#d9b768"
+
+# Scrolling
+[scrolling]
+history = 10000
+multiplier = 3
+
+# Selection
+[selection]
+save_to_clipboard = true
+
+# Live config reload
+live_config_reload = true
+
+# Shell
+[shell]
+program = "/bin/bash"
