@@ -4,3 +4,7 @@
 @define-color border #3d4552;
 @define-color foreground #0a0e12;
 @define-color background #0a0e12;
+
+.box-wrapper {
+  border-radius: 10px;
+}
